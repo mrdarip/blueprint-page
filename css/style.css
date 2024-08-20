@@ -1,0 +1,16 @@
+:root{
+    --blue: #406ec2;
+    --white: #fcfdff;
+}
+
+body{
+    background-color: var(--blue);
+
+    color: var(--white);
+
+    margin: 0;
+}
+
+article:first-child{
+    background-color: red;
+}
