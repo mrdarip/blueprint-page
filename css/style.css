@@ -4,6 +4,8 @@
 }
 
 body{
+    height: 100vh;
+
     background-color: var(--blue);
 
     color: var(--white);
@@ -16,6 +18,31 @@ section{
     background-color: var(--blue);
     border: var(--white) 1px solid;
     margin-top: 2em;
+}
+
+header{
+    background-color: var(--blue);
+    border: var(--white) 1px solid;
+    border-top: 0px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0.5em 1em
+}
+
+header ul{
+    border-top: var(--white) 1px solid;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
 }
 
 article > *{
