@@ -4,13 +4,20 @@
 }
 
 body{
+    background-image: linear-gradient(var(--white) 1.5px, transparent 1.5px), linear-gradient(to right, var(--white) 1.5px, transparent 1.5px);
+    background-size: 50px 50px;
     background-color: var(--blue);
 
     color: var(--white);
 
-    margin: 0;
+    width: 90%;
+    margin: auto;
 }
 
-article:first-child{
-    background-color: red;
+section{
+    background-color: var(--blue);
+    border: var(--white) 1px solid;
+    margin-top: 2em;
+
+    padding: 1em;
 }
