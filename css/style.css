@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
 :root{
     --blue: #214588;
     --white: #a6c2fa;
@@ -9,7 +11,12 @@ body{
     background-color: var(--blue);
 
     color: var(--white);
+    margin: 0px;
 
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body > *{
     width: 90%;
     margin: auto;
 }
@@ -47,6 +54,7 @@ a{
 
 article > *{
     padding: 1em;
+    margin-top: 0px;
 }
 
 article:not(:last-child){
@@ -76,10 +84,13 @@ article:not(:last-child){
 }
 
 article :first-child{
-    margin: 0px;
+    margin: 0px 0.5em 0.5em 0px;
     border: 1px solid var(--white);
     border-top: 0px;
     border-left: 0px;
-    padding: 0.5em;
+    padding: 0.5em 0.7em;
     width:fit-content;
+
+    display: inline;
+    float: left;
 }
